@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  height: 100vh;
+
+  background: rgb(255,123,92);
+  background: linear-gradient(90deg, rgba(255,123,92,1) 17%, rgba(255,108,129,1) 44%);
+}
+
+.Col-Style{
+  display: flex;
+}
+
+.petr{
+  height: auto; 
+  width: auto; 
+  max-width: 200px; 
+  max-height: 200px;
+
+  /* margin-top: 35vh;
+  margin-right: 35vw; */
+  /* position: absolute;
+  top: 50%;
+  left: 10%; */
+  margin: auto;
+  animation:
+    run 5s linear infinite alternate;
+}
+
+@keyframes run {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+@media only screen  and (min-device-width: 481px) 
+and (max-device-width: 700px){
+
+  .petr{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    margin: 0 auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+  }
+}
+
+@media only screen  and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .App{
+    background: rgb(255,123,92);
+    background: linear-gradient( rgba(255,123,92,1) 17%, rgba(255,108,129,1) 44%) fixed;
+    height: fit-content;
+  }
+
+  .petr{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    margin: auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+  }
+}
+

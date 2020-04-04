@@ -1,0 +1,36 @@
+.CustomForm{
+    padding: 50px 50px 50px 50px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.CustomForm-Container{
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 35px;
+
+}
+
+.CustomForm-Form{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.CustomForm-Label{
+    float: left;
+    font-size: 150%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .CustomForm{
+        padding: 20px 20px 20px 20px;
+        max-width: 600px;
+        max-height: 650px;
+    }
+    .CustomForm-Container{
+        background-color: white;
+        margin-top: 40px;
+        border-radius: 35px;
+        height: 500px;
+    }
+  }
