@@ -15,12 +15,6 @@
   width: auto; 
   max-width: 200px; 
   max-height: 200px;
-
-  /* margin-top: 35vh;
-  margin-right: 35vw; */
-  /* position: absolute;
-  top: 50%;
-  left: 10%; */
   margin: auto;
   animation:
     run 5s linear infinite alternate;
