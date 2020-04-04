@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   height: 100vh;
-
   background: rgb(255,123,92);
   background: linear-gradient(90deg, rgba(255,123,92,1) 17%, rgba(255,108,129,1) 44%);
 }
@@ -43,9 +42,6 @@ and (max-device-width: 700px){
     max-width: 200px; 
     max-height: 200px;
     margin: 0 auto;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
   }
 }
 
@@ -64,9 +60,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     max-width: 200px; 
     max-height: 200px;
     margin: auto;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
   }
 }
 

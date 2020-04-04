@@ -1,7 +1,7 @@
 import React from 'react';
-import './css/App.css';
-import Form from './components/Form';
-import petr from './assets/petr.png';
+import '../css/App.css';
+import Form from '../components/Form';
+import petr from '../assets/petr.png';
 import { Container, Row, Col} from 'react-bootstrap';
 
 function App() {
